@@ -7,7 +7,7 @@ function postName()
     }
     else
     {
-        window.location = "/" + uname;
+        window.location = "/get_age/" + uname;
     }
 }
 
@@ -21,7 +21,7 @@ function postAge()
     }
     else
     {
-        window.location = "/" + uname + "/" + uage;
+        window.location = "/get_nums/" + uname + "/" + uage;
     }
 }
 
@@ -34,6 +34,6 @@ function postNums()
     var numB = document.getElementById("num_2").value;
     var numC = document.getElementById("num_3").value;
 
-    window.location = "/" + uname + "/" + uage +
+    window.location = "/end/" + uname + "/" + uage +
             "/" + numA + "/" + numB + "/" + numC;
 }
