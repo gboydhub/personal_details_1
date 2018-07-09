@@ -13,6 +13,6 @@ get '/get_nums/:name/:age' do
 end
 
 get '/end/:name/:age/:num1/:num2/:num3' do
-    erb :end, :locals => {:name => params[:name], :age => params[:age],
-        :num1 => params[:num1], :num2 => params[:num2], :num3 => params[:num3]}
+    erb :end, :locals => {:name => params[:name], :age => params[:age].to_i,
+        :num1 => params[:num1].to_i, :num2 => params[:num2].to_i, :num3 => params[:num3].to_i}
 end
