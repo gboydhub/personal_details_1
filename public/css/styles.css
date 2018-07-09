@@ -1,10 +1,13 @@
 body {
     background-color: #9B9BFF;
     font: 15px impact;
+    color: black;
 }
 
 a {
-    color: black;
+    color: hotpink;
+    text-decoration: none;
+    font: 19px arial;
 }
 
 .shadowed {
