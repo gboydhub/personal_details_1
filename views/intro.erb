@@ -5,7 +5,17 @@
     </head>
 
     <body>
-        <% if defined? name then %>
+        <% if defined? name && defined? age then %>
+            <h3>Okay <%= name %>, so you are <%= age %>.<br>
+            Pick 3 favorite numbers.</h3>
+            <input type="hidden" id="username" value="<%= name %>">
+            <input type="hidden" id="age" value="<%= age %>">
+
+            <input type="number" id="num_1"> 
+            <input type="number" id="num_2"> 
+            <input type="number" id="num_3"><br>
+            <button id="sub_numbers" onclick="postNums()">Submit</button>
+        <% elsif defined? name then %>
             <h3><%= name %>, how old are you?</h3>
             <input type="hidden" id="username" value="<%= name %>">
             <input type="number" id="age"> 
