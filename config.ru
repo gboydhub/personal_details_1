@@ -1,2 +1,2 @@
-require './exchange'
+require './app'
 run Sinatra::Application
