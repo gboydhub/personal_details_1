@@ -6,11 +6,14 @@
 
     <body>
         <% if defined? name then %>
-            Test
+            <h3><%= name %>, how old are you?</h3>
+            <input type="hidden" id="username" value="<%= name %>">
+            <input type="number" id="age"> 
+            <button id="sub_age" onclick="postAge()">Submit</button>
         <% else %>
-        <h3>Hello! What is your name?</h3>
-        <input type="text" id="username"> 
-        <button id="sub_name" onclick="postName()">Submit</button>
+            <h3>Hello! What is your name?</h3>
+            <input type="text" id="username"> 
+            <button id="sub_name" onclick="postName()">Submit</button>
         <% end %>
         <p id="error_out"></p>
     </body>
