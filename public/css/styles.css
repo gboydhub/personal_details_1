@@ -1,34 +1,39 @@
 body {
     background-color: #5555AB;
-    font: 15px arial;
+    font: arial;
+    font-size: 3rem;
     color: black;
 }
 
 a:link {
     color: hotpink;
     text-decoration: none;
-    font: 21px impact;
+    font: impact;
+    font-size: 3rem;
     margin: 8px;
 }
 
 a:visited {
     color: hotpink;
     text-decoration: none;
-    font: 21px impact;
+    font: impact;
+    font-size: 3rem;
     margin: 8px;
 }
 
 a:hover {
     color: red;
     text-decoration: underline;
-    font: 21px impact;
+    font: impact;
+    font-size: 3rem;
     margin: 8px;
 }
 
 a:active {
     color: red;
     text-decoration: underline;
-    font: 21px impact;
+    font: impact;
+    font-size: 3rem;
     margin: 8px;
 }
 
