@@ -1,31 +1,35 @@
 body {
     background-color: #9B9BFF;
-    font: 15px impact;
+    font: 15px arial;
     color: black;
 }
 
 a:link {
     color: hotpink;
     text-decoration: none;
-    font: 19px arial;
+    font: 21px impact;
+    margin: 8px;
 }
 
 a:visited {
     color: hotpink;
     text-decoration: none;
-    font: 19px arial;
+    font: 21px impact;
+    margin: 8px;
 }
 
 a:hover {
     color: red;
     text-decoration: underline;
-    font: 19px arial;
+    font: 21px impact;
+    margin: 8px;
 }
 
 a:active {
     color: red;
     text-decoration: underline;
-    font: 19px arial;
+    font: 21px impact;
+    margin: 8px;
 }
 
 .shadowed {
