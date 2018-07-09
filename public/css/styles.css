@@ -5,6 +5,7 @@ body {
 
 .shadowed {
     box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
+    border-collapse: seperate;
     border-spacing: 10px;
 }
 
