@@ -5,10 +5,13 @@
     </head>
 
     <body>
+        <% if defined? name then %>
+            Test
+        <% else %>
         <h3>Hello! What is your name?</h3>
         <input type="text" id="username"> 
         <button id="sub_name" onclick="postName()">Submit</button>
-    
+        <% end %>
         <p id="error_out"></p>
     </body>
 </html>
