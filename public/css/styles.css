@@ -4,9 +4,27 @@ body {
     color: black;
 }
 
-a {
+a:link {
     color: hotpink;
     text-decoration: none;
+    font: 19px arial;
+}
+
+a:visited {
+    color: hotpink;
+    text-decoration: none;
+    font: 19px arial;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font: 19px arial;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
     font: 19px arial;
 }
 
