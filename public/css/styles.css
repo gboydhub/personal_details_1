@@ -3,6 +3,10 @@ body {
     font: 15px impact;
 }
 
+a {
+    color: black;
+}
+
 .shadowed {
     box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
     margin: 8px;
