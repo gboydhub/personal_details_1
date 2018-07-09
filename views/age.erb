@@ -2,13 +2,14 @@
 <html>
     <head>
         <script src="/js/intro.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
             <h3><%= name %>, how old are you?</h3>
-            <input type="hidden" id="username" value="<%= name %>">
-            <input type="number" id="age"> 
-            <button id="sub_age" onclick="postAge()">Submit</button>
+            <input type="hidden" class="shadowed" id="username" value="<%= name %>">
+            <input type="number" class="shadowed" id="age"> 
+            <button id="sub_age" class="shadowed rounded" onclick="postAge()">Submit</button>
         <p id="error_out"></p>
     </body>
 </html>

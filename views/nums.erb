@@ -2,6 +2,7 @@
 <html>
     <head>
         <script src="/js/intro.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
@@ -10,10 +11,10 @@
             <input type="hidden" id="username" value="<%= name %>">
             <input type="hidden" id="age" value="<%= age %>">
 
-            <input type="number" id="num_1"> 
-            <input type="number" id="num_2"> 
-            <input type="number" id="num_3"><br>
-            <button id="sub_numbers" onclick="postNums()">Submit</button>
+            <input type="number" id="num_1" class="shadowed"> 
+            <input type="number" id="num_2" class="shadowed"> 
+            <input type="number" id="num_3" class="shadowed"><br>
+            <button id="sub_numbers"  class="shadowed rounded" onclick="postNums()">Submit</button>
         <p id="error_out"></p>
     </body>
 </html>
