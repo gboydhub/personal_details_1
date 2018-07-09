@@ -1,4 +1,8 @@
 body {
     background-color: #9B9BFF;
-    font: 12px impact;
+    font: 15px impact;
+}
+
+.shadowed {
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
 }
