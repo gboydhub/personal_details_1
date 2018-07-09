@@ -13,28 +13,28 @@ a:link {
     margin: 8px;
 }
 
-a:visited {
-    color: hotpink;
-    text-decoration: none;
+a {
     font-family: Impact;
     font-size: 3rem;
     margin: 8px;
+}
+a:link {
+    color: rosybrown;
+    text-decoration: none;
+}
+a:visited {
+    color: rosybrown;
+    text-decoration: none;
 }
 
 a:hover {
     color: red;
     text-decoration: underline;
-    font-family: Impact;
-    font-size: 3rem;
-    margin: 8px;
 }
 
 a:active {
     color: red;
     text-decoration: underline;
-    font-family: Impact;
-    font-size: 3rem;
-    margin: 8px;
 }
 
 .shadowed {
