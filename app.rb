@@ -4,10 +4,10 @@ get '/' do
     erb :intro
 end
 
-get '/:name' do
-    erb :intro, :locals => {:name => params[:name]}
+get 'get_age/:name' do
+    erb :name, :locals => {:name => params[:name]}
 end
 
-get '/:name/:age' do
-    erb :intro, :locals => {:name => params[:name], :age => params[:age]}
+get 'get_nums/:name/:age' do
+    erb :age, :locals => {:name => params[:name], :age => params[:age]}
 end

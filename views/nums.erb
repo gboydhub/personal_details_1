@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="js/intro.js"></script>
+    </head>
+
+    <body>
+            <h3>Okay <%= name %>, so you are <%= age %>.<br>
+            Pick 3 favorite numbers.</h3>
+            <input type="hidden" id="username" value="<%= name %>">
+            <input type="hidden" id="age" value="<%= age %>">
+
+            <input type="number" id="num_1"> 
+            <input type="number" id="num_2"> 
+            <input type="number" id="num_3"><br>
+            <button id="sub_numbers" onclick="postNums()">Submit</button>
+        <p id="error_out"></p>
+    </body>
+</html>

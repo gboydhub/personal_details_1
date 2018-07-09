@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="js/intro.js"></script>
+    </head>
+
+    <body>
+            <h3><%= name %>, how old are you?</h3>
+            <input type="hidden" id="username" value="<%= name %>">
+            <input type="number" id="age"> 
+            <button id="sub_age" onclick="postAge()">Submit</button>
+        <p id="error_out"></p>
+    </body>
+</html>
